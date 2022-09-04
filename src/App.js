@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar } from "./components";
+import { Home, Navbar } from "./components";
 
 
 
@@ -9,6 +9,7 @@ function App() {
   return (
     <div>
       <Navbar />
+      <Home />
     </div>
   );
 }

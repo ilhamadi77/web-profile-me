@@ -1,6 +1,7 @@
+import Home from "./Home"
 import Navbar from "./Navbar"
 
 
 
 
-export { Navbar }
+export { Navbar, Home }

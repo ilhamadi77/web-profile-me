@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 
 //import react icons
-import { FaTimes, FaBars } from "react-icons/fa";
+import { FaTimes, FaBars, FaGithub, FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 
 //import asset
 import Logo from "../assets/logo.png";
@@ -51,7 +53,42 @@ const Navbar = () => {
       </ul>
 
       {/* Icons */}
-      <div className="hidden"></div>
+      <div className="hidden lg:flex flex-col fixed top-[35%] left-0">
+        <ul>
+          <li className="w-[160px] h-[60px] flex justify-between items-center bg-blue-600 ml-[-100px] hover:ml-[-10px] duration-300 ">
+            <a
+              href="/home "
+              className="text-gray-300 w-full flex justify-between items-center "
+            >
+              Linkedin <FaLinkedin size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center bg-[#333333] ml-[-100px] hover:ml-[-10px] duration-300 ">
+            <a
+              href="/home "
+              className="text-gray-300 w-full flex justify-between items-center "
+            >
+              Github <FaGithub size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center bg-[#6cf2b0] ml-[-100px] hover:ml-[-10px] duration-300 ">
+            <a
+              href="/home "
+              className="text-gray-300 w-full flex justify-between items-center "
+            >
+              Email <HiOutlineMail size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center bg-[#565f69] ml-[-100px] hover:ml-[-10px] duration-300 ">
+            <a
+              href="/home "
+              className="text-gray-300 w-full flex justify-between items-center "
+            >
+              Resume <BsFillPersonLinesFill size={30} />
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
