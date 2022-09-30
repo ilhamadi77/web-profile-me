@@ -6,7 +6,8 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 //import asset
-import Logo from "../assets/logo.png";
+//import Logo from "../assets/logo.png";
+import logoBran from "../assets/logoBrand.png";
 
 //import react-scroll
 import { Link } from "react-scroll";
@@ -19,7 +20,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <img src={Logo} alt="Logo navbar" style={{ width: "50px" }} />
+        <img src={logoBran} alt="Logo navbar" style={{ width: "50px" }} />
       </div>
 
       {/* Menu */}
