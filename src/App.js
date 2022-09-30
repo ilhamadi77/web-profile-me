@@ -1,5 +1,5 @@
 import React from 'react'
-import { About, Home, Navbar, Skills } from "./components";
+import { About, Contact, Footer, Home, Navbar, Skills, Work } from "./components";
 
 
 
@@ -12,6 +12,9 @@ function App() {
       <Home />
       <About />
       <Skills />
+      <Work />
+      <Contact />
+      <Footer />
     </div>
   );
 }
